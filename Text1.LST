@@ -1,0 +1,43 @@
+C51 COMPILER V7.50   TEXT1                                                                 05/18/2006 00:56:17 PAGE 1   
+
+
+C51 COMPILER V7.50, COMPILATION OF MODULE TEXT1
+OBJECT MODULE PLACED IN Text1.OBJ
+COMPILER INVOKED BY: e:\Keil\C51\BIN\C51.EXE Text1.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include <REGX51.H>
+   2          typedef unsigned char  uchar;                      
+   3          
+   4          
+   5          
+   6          
+   7          delay(uchar n)
+   8                  {uchar f,m;
+   9   1              for(m=n;m>0;m--)
+  10   1         //for(n=15;n>0;n++)
+  11   1              for(f=248;f>0;f--)
+  12   1              {}      }
+  13          
+  14          
+  15          main()
+  16          {uchar t;
+  17   1      while(1)
+  18   1      {for(t=0;t<255;t++)
+  19   2       {P0=t;
+  20   3       delay(255);}}}
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     29    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
